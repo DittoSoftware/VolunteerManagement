@@ -1,0 +1,24 @@
+--a. Approved/Pending Approval
+select * from volunteerdata
+where ApprovalStatus in ('Approved','Pending')
+
+--b. Approved
+select * from volunteerdata
+where ApprovalStatus in ('Approved')
+
+--c. Pending Approval
+select * from volunteerdata
+where ApprovalStatus in ('Pending')
+
+--d. Disapproved
+select * from volunteerdata
+where ApprovalStatus in ('Disapproved')
+
+--e. Inactive
+select * from volunteerdata
+where ApprovalStatus in ('Inactive')
+
+--f. All
+select * from volunteerdata
+
+
