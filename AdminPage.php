@@ -8,6 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
+        <style><?php include 'style.css' ?></style>
     </head>
     <body>
         <?php
@@ -22,5 +23,6 @@ and open the template in the editor.
                     <li><a href="http://localhost/VolunteerManagement/ManageOppourtunities.php" clolunteersass="button">Manage Oppourtunities</a></li>
                     <li><a href="http://localhost/VolunteerManagement/index.php" class="button">Logout</a></li>
                 </ul>
+            </nav>
     </body>
 </html>
